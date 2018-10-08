@@ -75,7 +75,7 @@ let ball;
 let ballArray = [];
 
 function init() {
-    for(let i=0;i<1000;i++){
+    for(let i=0;i<500;i++){
         let x = Math.random() * canvas.width/1.1 + 25;
         let y = Math.random() * canvas.height /3 +200;
         let radius = Math.random() * 20 +5;
